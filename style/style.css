@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+} 
+
+/* Heading start */
+
+.header .row{
+    align-items: baseline;
+ 
+}
+
+
+.menu ul{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li{
+    list-style-type: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.purchase-btn{
+    text-align: end;
+    color: red;
+ 
+    text-align: center;
+    border-color: red;
+    transition: 0.3s;
+}
+
+.purchase-btn button{
+    background: transparent;
+    border-radius: 8px;
+
+    color: red;
+}
+
+.banner{
+    margin-top: 44px;
+    height: 80vh;
+}
+
+.banner-img{
+    text-align: right;
+
+}
+
+.banner .container p{
+    font-size: 20px;
+    text-align: justify;
+}
