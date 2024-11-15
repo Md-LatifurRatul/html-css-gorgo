@@ -1,58 +1,121 @@
-*{
-    margin: 0px;
-    padding: 0px;
-} 
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
 /* Heading start */
 
-.header .row{
-    align-items: baseline;
- 
+.header {
+  padding-top: 30px;
 }
 
-
-.menu ul{
-
-    display: flex;
-    justify-content: space-between;
+.header .row {
+  align-items: baseline;
 }
 
-.menu ul li{
-    list-style-type: none;
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
 
-.menu ul li a{
-    text-decoration: none;
-    color: black;
+.menu ul li {
+  list-style-type: none;
+  font-weight: 500;
 }
 
-.purchase-btn{
-    text-align: end;
-    color: red;
- 
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.purchase-btn {
+  width: 250px;
+  height: 60px;
+  background-color: rgb(255, 0, 68);
+  text-align: center;
+  transition: 0.5s;
+  border-radius: 8px;
+  background: transparent;
+  transition: ease-in-out 0.3s;
+  font-size: 1.2rem;
+}
+
+/* Header End */
+
+/* Banner Start */
+
+.banner {
+  width: 100%;
+  margin-top: 150px;
+  height: 100vh;
+  align-items: center;
+}
+
+.banner h2 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.banner-img {
+  text-align: right;
+}
+
+.banner .container p {
+  font-size: 18px;
+  padding-top: 10px;
+  text-align: justify;
+  font-weight: 500;
+}
+
+.banner i {
+  color: #000;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 50%;
+  line-height: 40px;
+  margin-top: 20px;
+}
+
+/* Banner End */
+
+/* Gallery view Start */
+
+.gallery-view {
+  margin-left: 20px;
+  margin-top: 60px;
+
+  width: 100%;
+  .gallery-info {
     text-align: center;
-    border-color: red;
-    transition: 0.3s;
+  }
+  h2 {
+    margin-top: 12px;
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+.gallery-image {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+h3 {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
-.purchase-btn button{
-    background: transparent;
-    border-radius: 8px;
-
-    color: red;
+.category {
+  text-align: center;
 }
 
-.banner{
-    margin-top: 44px;
-    height: 80vh;
-}
-
-.banner-img{
-    text-align: right;
-
-}
-
-.banner .container p{
-    font-size: 20px;
-    text-align: justify;
-}
+/* Gallery view End */

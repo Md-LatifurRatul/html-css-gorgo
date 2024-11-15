@@ -9,13 +9,17 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <link rel="stylesheet" href="style/style.css" />
 
     <title>My Web</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
         <div class="row">
           <div class="div col-md-2">
@@ -34,7 +38,9 @@
           </div>
           <div class="div col-md-3"></div>
           <div class="div col-md-3">
-            <button class="purchase-btn">Purchase Theme $29</button>
+            <button class="purchase-btn btn btn-outline-danger">
+              Purchase Theme $29
+            </button>
           </div>
         </div>
       </div>
@@ -46,11 +52,14 @@
           <div class="col-md-6">
             <h2>Minimal Content Focused Blog & Magazine</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum.
+              Let the pain itself be great, and the adipiscing will be followed,
+              but let no hair flee from the pain. Unless they are blinded by
+              lust, they do not come out; they are in fault who abandon their
+              duties and soften their hearts, that is toil.
             </p>
+            <a href="#gallery">
+              <i class="fa fa-arrow-down"></i>
+            </a>
           </div>
 
           <div class="col-md-6">
@@ -58,6 +67,36 @@
               <img src="img/banner.png" alt="" />
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-view" id="gallery">
+      <div class="gallery-info">
+        <h2>Our Stunning Demo</h2>
+        <p>
+          The customer should be very happy, except that the mind is soft,
+          <br />
+          that is the difficulties.
+        </p>
+      </div>
+      <div class="gallery-image">
+        <div class="category">
+          <img src="img/project-01.png" alt="Project1" />
+
+          <h3>Classic</h3>
+        </div>
+        <div class="category">
+          <img src="img/project-02.png" alt="Project2" />
+          <h3>Shop</h3>
+        </div>
+        <div class="category">
+          <img src="img/project-03.png" alt="Project3" />
+          <h3>Dark Mode</h3>
+        </div>
+        <div class="category">
+          <img src="img/project-04.png" alt="Project4" />
+          <h3>Minimal</h3>
         </div>
       </div>
     </section>
