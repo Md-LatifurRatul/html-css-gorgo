@@ -86,14 +86,13 @@
 
 .gallery-view {
   margin-left: 20px;
-  margin-top: 60px;
 
   width: 100%;
   .gallery-info {
     text-align: center;
   }
   h2 {
-    margin-top: 12px;
+    margin-top: 5px;
     font-size: 2.5rem;
   }
   p {
@@ -102,11 +101,12 @@
   }
 }
 .gallery-image {
-  padding: 10px;
+  padding: 5px;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  transition: 0.5s;
 }
 h3 {
   margin-top: 20px;
@@ -116,6 +116,62 @@ h3 {
 
 .category {
   text-align: center;
+  img:hover {
+    box-shadow: 8px 8px 15px -2px black;
+    transition: 0.5s;
+  }
 }
 
 /* Gallery view End */
+
+/* Feature Gallery Start */
+
+.features-gallery {
+  width: 100%;
+  padding: 80px 0px;
+  text-align: center;
+  .feature-header h2 {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .feature-header p {
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .row {
+    display: flex;
+    img {
+      margin-top: 15px;
+    }
+    h4 {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+
+  .customise {
+    background-color: #f5f5f5;
+    padding: 12px;
+    margin: 12px;
+    &:hover {
+      background-color: #292640;
+      transition: all 0.5s;
+      color: white;
+    }
+    img {
+      background-color: white;
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+/* Feature Gallery End */
