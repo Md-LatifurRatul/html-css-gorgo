@@ -175,3 +175,37 @@ h3 {
 }
 
 /* Feature Gallery End */
+
+/* Footer Start */
+
+.feature-footer {
+  background-color: #292640;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 80px 0px 40px 0px;
+
+  h2 {
+    font-size: 3rem;
+  }
+  .text-button {
+    all: unset;
+    display: inline;
+    background-color: #ff6b63;
+    cursor: default;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    padding: 16px 42px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    :hover,
+    focus {
+      outline: none;
+      text-decoration: none;
+    }
+  }
+}
+
+/* Footer End */
