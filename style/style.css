@@ -43,6 +43,32 @@
 
 /* Header End */
 
+/* Social Button Start */
+
+.fixed-icon {
+  margin-top: 20px;
+  .social-icon {
+    position: fixed;
+
+    ul li {
+      background: #ff6b63;
+      height: 60px;
+      width: 60px;
+      line-height: 60px;
+      text-align: center;
+      color: white;
+      border-bottom: 2px solid white;
+      border-radius: 5px;
+      font-size: 22px;
+    }
+    i {
+      color: white;
+    }
+  }
+}
+
+/* Social Button End */
+
 /* Banner Start */
 
 .banner {
