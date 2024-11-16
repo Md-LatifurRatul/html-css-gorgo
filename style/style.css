@@ -39,6 +39,7 @@
   background: transparent;
   transition: ease-in-out 0.3s;
   font-size: 1.2rem;
+  font-family: "poppins", sans-serif;
 }
 
 /* Header End */
@@ -86,6 +87,7 @@
   font-size: 40px;
   line-height: 50px;
   font-weight: bold;
+  font-family: "poppins", sans-serif;
 }
 
 .banner-img {
@@ -97,6 +99,7 @@
   padding-top: 10px;
   text-align: justify;
   font-weight: 500;
+  font-family: "poppins", sans-serif;
 }
 
 .banner i {
@@ -124,10 +127,12 @@
   h2 {
     margin-top: 5px;
     font-size: 2.5rem;
+    font-family: "poppins", sans-serif;
   }
   p {
     font-size: 18px;
     font-weight: 500;
+    font-family: "poppins", sans-serif;
   }
 }
 .gallery-image {
@@ -142,6 +147,7 @@ h3 {
   margin-top: 20px;
   font-size: 1.2rem;
   font-weight: bold;
+  font-family: "poppins", sans-serif;
 }
 
 .category {
@@ -167,6 +173,7 @@ h3 {
   .feature-header p {
     font-weight: 400;
     font-size: 20px;
+    font-family: "poppins", sans-serif;
   }
 
   .row {
@@ -177,10 +184,12 @@ h3 {
     h4 {
       font-size: 20px;
       margin-bottom: 20px;
+      font-family: "poppins", sans-serif;
     }
     p {
       font-size: 16px;
       font-weight: 500;
+      font-family: "poppins", sans-serif;
     }
   }
 
@@ -217,6 +226,7 @@ h3 {
 
   h2 {
     font-size: 3rem;
+    font-family: "poppins", sans-serif;
   }
   .text-button {
     all: unset;
@@ -230,6 +240,7 @@ h3 {
     padding: 16px 42px;
     margin-top: 15px;
     margin-bottom: 30px;
+    font-family: "poppins", sans-serif;
     :hover,
     focus {
       outline: none;
